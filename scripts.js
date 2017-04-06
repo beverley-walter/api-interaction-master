@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', displayPlage)
 function displayPlage () {
   displayQuote()
   document.getElementById("newquote").addEventListener("click", displayQuote)
-    document.getElementById("tweetquote").addEventListener("click", window.open("http://www.google.com"))
 }
 
 function displayQuote() {
@@ -19,10 +18,12 @@ document.getElementById('english').innerHTML=jsonObj.translation;
 quoteLoaded()
 }
 }
-
 }
 
 function quoteLoaded() {
   maoritext = jsonObj.source
-  console.log(maoritext)
+}
+
+function tweet() {
+  window.open('https://twitter.com/intent/tweet?text="' + maoritext + '"')
 }
