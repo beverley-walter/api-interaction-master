@@ -1,20 +1,25 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Random Quote Machine</title>
+  <title>Quote Generator</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-
-<div class="quote" id="maori"></div>
-<div class="quote" id="english"></div>
-<button class="button" id="newquote">New Quote</button>
-<button class="button" id="tweetquote" onclick="tweet()">Tweet Maori Quote</button>
-
+   <h1> Maori Quotes and Translations</h1>
+   <div class="quote-box">
+     <div class="quote-text">
+      <p>
+        <div id="maori"></div>
+      </p>
+      <p>
+        <div id="english"></div>
+     </p>
+        <button id="newquote">New Quote</button>
+        <button id="tweetquote" onclick="tweet()">Tweet Maori Quote</button>
+     </div>
+   </div>
 <script src="scripts.js"></script>
-
 </body>
 </html>

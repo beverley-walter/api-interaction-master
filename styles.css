@@ -1,1 +1,47 @@
-jlhkgcfn
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+head {
+  background-color: #333;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+body {
+   background-image: url("images/Ferns.jpg");
+   background-size: cover;
+   font-family: 'Raleway', sans-serif;
+}
+h1{
+   text-align: center;
+   margin: 4% auto auto auto;
+   width: 1000px;
+   font-size: 4em;
+   color: #fff;
+
+}
+.quote-box .quote-text{
+  border-radius: 10px;
+  margin: 4% auto auto auto;
+  width: 1000px;
+  padding: 20px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+#newquote, #tweetquote{
+   font-size: 1em;
+   font-weight: bold;
+   border-radius: 10px;
+   padding: 20px 20px;
+   background-color: #fff;
+   text-align: center;
+}
+#maori {
+  font-size: 2em;
+  margin-right: 0.4em;
+  font-weight: bold;
+}
+#english {
+  font-size: 1.5em;
+  margin-right: 0.4em;
+  font-style: italic;
+}
